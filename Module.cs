@@ -1,10 +1,10 @@
-﻿using System;
-namespace Integration.CSV
+﻿namespace Integration.CSV
 {
-    public class Module
+    public class Module : Autofac.Module
     {
-        public Module()
+        public Module() 
         {
+            //Register all the types
         }
     }
 }

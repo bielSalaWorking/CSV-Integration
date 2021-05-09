@@ -7,7 +7,10 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Services\" />
+    <Folder Include="HttpClient\" />
+    <Folder Include="FileStorage\" />
+    <Folder Include="Resizers\" />
+    <Folder Include="UrlFormatting\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Autofac" Version="6.2.0" />
